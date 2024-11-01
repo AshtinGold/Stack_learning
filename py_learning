@@ -1,0 +1,4 @@
+# Python learning
+
+Tips:
+1. For files and directory locations, note that "/xxxx" is NOT the same as "xxxx". The former denotes we start from the root directory. You might encounter this problem when applying os.path.join()
