@@ -1,0 +1,11 @@
+# mujoco : A short introduction
+
+Introduction:  
+What is mujoco?  
+Mujoco is a free and open-source physics engine commonly used in Robotics. Mujoco has fast and accurate simulations.  
+It is designed for model-based optimisation, especially for contact-rich tasks.  
+Mujoco also has in-built testing and validation mechanisms.  
+
+Installation:  
+The easiest way is to run `pip install mujoco`.  
+
