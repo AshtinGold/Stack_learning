@@ -1,4 +1,4 @@
-# mujoco : A short introduction
+# mujoco : How to get started fast
 
 Introduction:  
 What is mujoco?  
@@ -6,6 +6,17 @@ Mujoco is a free and open-source physics engine commonly used in Robotics. Mujoc
 It is designed for model-based optimisation, especially for contact-rich tasks.  
 Mujoco also has in-built testing and validation mechanisms.  
 
-Installation:  
-The easiest way is to run `pip install mujoco`.  
+Relevant Features (to the author) :  
+* Avoids joint violations
+* Inverse dynamics are well-defined in presence of contacts
+* solvers : newton, conjugate gradient
+* Friction cones: Pyramidal, elliptic
+* Simulates cloths, ropes, soft object 
+* Continuous-time formulation of constraints via convex optimisation
+* GUI : available
 
+Installation:  
+The easiest way is to run `pip install mujoco`. Preferrably do this with a conda environment (as you should already know).  
+
+Tutorials:  
+For an elaborate hands-on tutorial, the author recommends `https://github.com/tayalmanan28/MuJoCo-Tutorial/tree/main`.
